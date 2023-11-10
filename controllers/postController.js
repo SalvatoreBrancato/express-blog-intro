@@ -1,7 +1,7 @@
 const post = require("../db/post.json");
 
 function index(req, res){
-    res.send('prova controller')
+    res.send('<h1>Benvenuto nel mio blog</h1>')
 }
 
 function iMieiPost(req, res){
@@ -17,6 +17,9 @@ function iMieiPost(req, res){
         "json": ()=>{
             //file json importato
             res.type("json").send(post)
+        },
+        default: ()=>{
+            res.status(404).send('Richiesta formato non previto')
         }
     })  
 }
