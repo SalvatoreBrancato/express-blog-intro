@@ -1,0 +1,32 @@
+[
+    {
+      "titolo": "Il nuovo MacBook Pro è arrivato",
+      "contenuto": "Apple ha presentato il nuovo MacBook Pro, con un nuovo design, un chip M2 più potente e una nuova fotocamera FaceTime HD da 1080p.",
+      "immagine": "https://www.apple.com/macbook-pro/images/hero/2023/macbook-pro-14-inch-silver-hero-2023-06-17-22-00-00.jpg",
+      "tags": ["apple", "macbook", "pro", "m2", "fotocamera"]
+    },
+    {
+      "titolo": "La nuova serie di iPhone 14 è in arrivo",
+      "contenuto": "Apple ha annunciato la nuova serie di iPhone 14, che sarà disponibile in quattro modelli: iPhone 14, iPhone 14 Max, iPhone 14 Pro e iPhone 14 Pro Max.",
+      "immagine": "https://www.apple.com/iphone-14/images/hero/2023/iphone-14-pro-max-gold-hero-2023-06-17-22-00-00.jpg",
+      "tags": ["apple", "iphone", "14", "pro", "max"]
+    },
+    {
+      "titolo": "Il nuovo iPad Air è più potente che mai",
+      "contenuto": "Apple ha presentato il nuovo iPad Air, con un nuovo chip M2 più potente e una nuova fotocamera frontale ultrawide da 12 MP.",
+      "immagine": "https://www.apple.com/ipad-air/images/hero/2023/ipad-air-5th-generation-space-gray-hero-2023-06-17-22-00-00.jpg",
+      "tags": ["apple", "ipad", "air", "m2", "fotocamera"]
+    },
+    {
+      "titolo": "La nuova Apple Watch Series 8 è più resistente e versatile",
+      "contenuto": "Apple ha presentato la nuova Apple Watch Series 8, con un nuovo design più resistente e un nuovo sensore di temperatura corporea.",
+      "immagine": "https://www.apple.com/apple-watch-series-8/images/hero/2023/apple-watch-series-8-midnight-hero-2023-06-17-22-00-00.jpg",
+      "tags": ["apple", "watch", "series-8", "resistente", "temperatura"]
+    },
+    {
+      "titolo": "Il nuovo macOS Ventura è ricco di nuove funzionalità",
+      "contenuto": "Apple ha presentato il nuovo macOS Ventura, con una serie di nuove funzionalità, tra cui Stage Manager, Continuity Camera e Live Text.",
+      "immagine": "https://www.apple.com/mac/ventura/images/hero/2023/mac-ventura-hero-2023-06-17-22-00-00.jpg",
+      "tags": ["apple", "macos", "ventura", "stage-manager", "continuity-camera", "live-text"]
+    }
+  ]
