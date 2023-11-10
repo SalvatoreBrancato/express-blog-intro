@@ -5,6 +5,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.get('/', postController.index);
+app.get('/post', postController.iMieiPost);
 
 app.listen(port, ()=>{
     console.log(`http://localhost:${port}`)
