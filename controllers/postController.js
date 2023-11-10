@@ -14,8 +14,12 @@ function iMieiPost(req, res){
                 <li>${elem.contenuto}</li>
                 <img src="${elem.immagine}" style="width:400px; margin-bottom:10px;">
                 `
+                for(let e of elem.tags){
+                    htmlPost+=`<div>#${e}</div>`
+                }
             }
             htmlPost += '</ul>'
+            
             res.type('html').send(htmlPost)        
         },
         "json": ()=>{
