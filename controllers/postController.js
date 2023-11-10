@@ -9,7 +9,11 @@ function iMieiPost(req, res){
         "html": ()=>{
             let htmlPost = '<ul>'
             for(let elem of post){
-                htmlPost+= `${elem.titolo}<li>${elem.contenuto}</li>`
+                htmlPost+= `
+                <h2>${elem.titolo}</h2>
+                <li>${elem.contenuto}</li>
+                <img src="${elem.immagine}" style="width:400px; margin-bottom:10px;">
+                `
             }
             htmlPost += '</ul>'
             res.type('html').send(htmlPost)        
